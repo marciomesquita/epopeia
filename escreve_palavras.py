@@ -16,4 +16,11 @@ def cria_frase(numero_de_palavras):
     
     print(frase)
 
-cria_frase(13)
+def retorna_ultimos_caracteres(qtd_caracter, palavra_recebida):
+ print(palavra_recebida)
+ return palavra_recebida[-qtd_caracter:]
+
+palavra = escolhe_palavra()
+print(retorna_ultimos_caracteres(2, palavra))
+
+# if retorna_ultimos_caracteres ==
